@@ -7,5 +7,5 @@ build:
       - npm install
 run:
   network: 
-      port: 8000
+      port: 8080
   command: node index.js
