@@ -5,7 +5,7 @@ const port = 8080;
 
 app.get('/', (req, res) => {
   var number = dependency.getNumber();
-  res.send('This is the number from the library: ' + number);
+  res.send('This is the number from the library folder: ' + number);
 });
 
 app.listen(port, () => {
