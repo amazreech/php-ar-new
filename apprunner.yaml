@@ -3,8 +3,8 @@ runtime: nodejs16
 build:
   commands:
     build:
-      - cd mainapp && npm install
+      - cd secondapp && npm install
 run:
   network: 
-      port: 8080
-  command: cd mainapp && node index.js
+      port: 3000
+  command: cd secondapp && node index.js
